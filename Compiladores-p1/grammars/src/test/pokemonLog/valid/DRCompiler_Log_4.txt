@@ -1,0 +1,160 @@
+Setup
+NotDrag0n chose tails for the opening coin flip.
+NotDrag0n won the coin toss.
+NotDrag0n decided to go second.
+NotDrag0n drew 7 cards for the opening hand.
+- 7 drawn cards.
+User82738 drew 7 cards for the opening hand.
+- 7 drawn cards.
+   • Premium Power Pro, Makuhita, Premium Power Pro, Okidogi, Lillie's Determination, Judge, Basic Fighting Energy
+NotDrag0n took a mulligan.
+- Cards revealed from Mulligan 1
+   • Bug Catching Set, Colress's Tenacity, Bug Catching Set, Ultra Ball, Basic Grass Energy, Forest of Vitality, Poké Pad
+User82738 drew 1 more card because NotDrag0n took at least 1 mulligan.
+- User82738 drew Lillie's Determination.
+NotDrag0n played Bulbasaur to the Active Spot.
+User82738 played Makuhita to the Active Spot.
+User82738 played Okidogi to the Bench.
+
+User82738's Turn
+User82738 drew Basic Fighting Energy.
+User82738 attached Basic Fighting Energy to Okidogi on the Bench.
+User82738 ended their turn.
+
+NotDrag0n's Turn
+NotDrag0n drew a card.
+NotDrag0n played Teal Mask Ogerpon ex to the Bench.
+NotDrag0n's Teal Mask Ogerpon ex used Teal Dance.
+- NotDrag0n attached Basic Grass Energy to Teal Mask Ogerpon ex on the Bench.
+- NotDrag0n drew a card.
+NotDrag0n played Bug Catching Set.
+- NotDrag0n drew 2 cards.
+   • Ivysaur, Basic Grass Energy
+- NotDrag0n shuffled their deck.
+NotDrag0n attached Basic Grass Energy to Teal Mask Ogerpon ex on the Bench.
+NotDrag0n played Poké Pad.
+- NotDrag0n drew Chikorita.
+- NotDrag0n shuffled their deck.
+NotDrag0n played Chikorita to the Bench.
+NotDrag0n played Lillie's Determination.
+- NotDrag0n shuffled 4 cards into their deck.
+- NotDrag0n drew 8 cards.
+NotDrag0n played Bug Catching Set.
+- NotDrag0n drew Mega Venusaur ex.
+- NotDrag0n shuffled their deck.
+NotDrag0n ended their turn.
+
+User82738's Turn
+User82738 drew Meowth ex.
+User82738 played Meowth ex to the Bench.
+User82738's Meowth ex used Last-Ditch Catch.
+- User82738 drew Hilda.
+- User82738 shuffled their deck.
+User82738 played Hilda.
+- User82738 drew 2 cards.
+   • Hariyama, Basic Fighting Energy
+- User82738 shuffled their deck.
+User82738 attached Basic Fighting Energy to Makuhita in the Active Spot.
+User82738's Makuhita used Corkscrew Punch on NotDrag0n’s Bulbasaur for 10 damage.
+
+NotDrag0n's Turn
+NotDrag0n drew a card.
+NotDrag0n evolved Bulbasaur to Ivysaur in the Active Spot.
+NotDrag0n evolved Chikorita to Bayleef on the Bench.
+NotDrag0n played Ultra Ball.
+- NotDrag0n discarded 2 cards.
+   • Ultra Ball, Colress's Tenacity
+- NotDrag0n drew Teal Mask Ogerpon ex.
+- NotDrag0n shuffled their deck.
+NotDrag0n played Teal Mask Ogerpon ex to the Bench.
+NotDrag0n played Meowth ex to the Bench.
+NotDrag0n's Meowth ex used Last-Ditch Catch.
+- NotDrag0n drew Lillie's Determination.
+- NotDrag0n shuffled their deck.
+NotDrag0n played Lillie's Determination.
+- NotDrag0n shuffled 3 cards into their deck.
+- NotDrag0n drew 8 cards.
+NotDrag0n's Teal Mask Ogerpon ex used Teal Dance.
+- NotDrag0n attached Basic Grass Energy to Teal Mask Ogerpon ex on the Bench.
+- NotDrag0n drew a card.
+NotDrag0n ended their turn.
+
+User82738's Turn
+User82738 drew Riolu.
+User82738 played Riolu to the Bench.
+User82738 attached Basic Fighting Energy to Makuhita in the Active Spot.
+User82738 evolved Makuhita to Hariyama in the Active Spot.
+User82738 played Lillie's Determination.
+- User82738 shuffled 4 cards into their deck.
+   • Premium Power Pro, Premium Power Pro, Lillie's Determination, Judge
+- User82738 drew 8 cards.
+   • Judge, Basic Fighting Energy, Fezandipiti ex, Poké Pad, Maximum Belt, Mega Lucario ex, Riolu, Gravity Mountain
+User82738 played Poké Pad.
+- User82738 drew Riolu.
+- User82738 shuffled their deck.
+User82738 played Riolu to the Bench.
+User82738 played Fezandipiti ex to the Bench.
+User82738 ended their turn.
+
+NotDrag0n's Turn
+NotDrag0n drew a card.
+NotDrag0n evolved Bayleef to Meganium on the Bench.
+NotDrag0n played Lillie's Determination.
+- NotDrag0n shuffled 7 cards into their deck.
+- NotDrag0n drew 8 cards.
+NotDrag0n played Bug Catching Set.
+- NotDrag0n drew Mega Venusaur ex.
+- NotDrag0n shuffled their deck.
+NotDrag0n evolved Ivysaur to Mega Venusaur ex in the Active Spot.
+NotDrag0n's Teal Mask Ogerpon ex used Teal Dance.
+- NotDrag0n attached Basic Grass Energy to Teal Mask Ogerpon ex on the Bench.
+- NotDrag0n drew a card.
+NotDrag0n played Forest of Vitality to the Stadium spot.
+NotDrag0n played Bulbasaur to the Bench.
+NotDrag0n evolved Bulbasaur to Ivysaur on the Bench.
+NotDrag0n's Mega Venusaur ex used Solar Transfer.
+- NotDrag0n attached Basic Grass Energy to Mega Venusaur ex in the Active Spot.
+- NotDrag0n attached Basic Grass Energy to Mega Venusaur ex in the Active Spot.
+- NotDrag0n attached Basic Grass Energy to Teal Mask Ogerpon ex on the Bench.
+NotDrag0n's Mega Venusaur ex used Jungle Dump on User82738’s Hariyama for 240 damage.
+- NotDrag0n's Mega Venusaur ex healed 30 damage.
+User82738's Hariyama was Knocked Out!
+- 3 cards were discarded from User82738's Hariyama.
+   • Basic Fighting Energy, Basic Fighting Energy, Makuhita
+NotDrag0n took a Prize card.
+A card was added to NotDrag0n's hand.
+User82738's Okidogi is now in the Active Spot.
+
+User82738's Turn
+User82738 drew Makuhita.
+User82738 attached Basic Fighting Energy to Riolu on the Bench.
+User82738 evolved Riolu to Mega Lucario ex on the Bench.
+User82738 played Riolu to the Bench.
+User82738 played Judge.
+- User82738 shuffled 3 cards into their deck.
+   • Maximum Belt, Gravity Mountain, Makuhita
+- NotDrag0n shuffled 5 cards into their deck.
+- User82738 drew 4 cards.
+   • Riolu, Basic Fighting Energy, Premium Power Pro, Lillie's Determination
+- NotDrag0n drew 4 cards.
+User82738's Okidogi used Light Punch on NotDrag0n’s Mega Venusaur ex for 20 damage.
+
+NotDrag0n's Turn
+NotDrag0n drew a card.
+NotDrag0n didn't take an action in time.
+
+User82738's Turn
+User82738 drew Mega Lucario ex.
+User82738 evolved Riolu to Mega Lucario ex on the Bench.
+User82738 attached Basic Fighting Energy to Mega Lucario ex on the Bench.
+User82738 played Lillie's Determination.
+- User82738 shuffled 2 cards into their deck.
+   • Riolu, Premium Power Pro
+- User82738 drew 8 cards.
+   • Mega Lucario ex, Makuhita, Tarragon, Riolu, Basic Fighting Energy, Premium Power Pro, Air Balloon, Air Balloon
+User82738 evolved Riolu to Mega Lucario ex on the Bench.
+User82738 didn't take an action in time.
+
+NotDrag0n's Turn
+NotDrag0n drew a card.
+Opponent was inactive for too long. User82738 wins.

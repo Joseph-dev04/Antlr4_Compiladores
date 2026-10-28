@@ -1,0 +1,363 @@
+Setup
+Shafee9mle3eb chose tails for the opening coin flip.
+Shafee9mle3eb won the coin toss.
+Shafee9mle3eb decided to go second.
+Shafee9mle3eb drew 7 cards for the opening hand.
+- 7 drawn cards.
+User82738 drew 7 cards for the opening hand.
+- 7 drawn cards.
+   • Switch, Premium Power Pro, Basic Fighting Energy, Gravity Mountain, Lunatone, Basic Fighting Energy, Riolu
+Shafee9mle3eb played Dunsparce to the Active Spot.
+Shafee9mle3eb played Shuckle to the Bench.
+Shafee9mle3eb played Dunsparce to the Bench.
+User82738 played Lunatone to the Active Spot.
+User82738 played Riolu to the Bench.
+
+User82738's Turn
+User82738 drew Maximum Belt.
+User82738 attached Basic Fighting Energy to Lunatone in the Active Spot.
+User82738 ended their turn.
+
+Shafee9mle3eb's Turn
+Shafee9mle3eb drew a card.
+Shafee9mle3eb ended their turn.
+
+User82738's Turn
+User82738 drew Air Balloon.
+User82738 attached Basic Fighting Energy to Lunatone in the Active Spot.
+User82738's Lunatone used Power Gem on Shafee9mle3eb’s Dunsparce for 100 damage. Shafee9mle3eb's Dunsparce took 50 more damage because of Fighting Weakness.
+- Damage breakdown:
+   • Base damage: 50 damage
+   • Weakness to Fighting: 50 damage
+   • Total damage: 100 damage
+
+Shafee9mle3eb's Dunsparce was Knocked Out!
+User82738 took a Prize card.
+Basic Fighting Energy was added to User82738's hand.
+Shafee9mle3eb's Dunsparce is now in the Active Spot.
+
+Shafee9mle3eb's Turn
+Shafee9mle3eb drew a card.
+Shafee9mle3eb evolved Dunsparce to Dudunsparce in the Active Spot.
+Shafee9mle3eb played Lillie's Determination.
+- Shafee9mle3eb shuffled 4 cards into their deck.
+- Shafee9mle3eb drew 8 cards.
+Shafee9mle3eb attached Prism Energy to Shuckle on the Bench.
+Shafee9mle3eb played Eevee to the Bench.
+Shafee9mle3eb ended their turn.
+
+User82738's Turn
+User82738 drew Mega Lucario ex.
+User82738 evolved Riolu to Mega Lucario ex on the Bench.
+User82738 attached Basic Fighting Energy to Mega Lucario ex on the Bench.
+User82738 played Premium Power Pro.
+User82738's Lunatone used Power Gem on Shafee9mle3eb’s Dudunsparce for 160 damage. Shafee9mle3eb's Dudunsparce took 80 more damage because of Fighting Weakness.
+- Damage breakdown:
+   • Base damage: 50 damage
+   • (Item) Premium Power Pro: 30 damage
+   • Weakness to Fighting: 80 damage
+   • Total damage: 160 damage
+
+Shafee9mle3eb's Dudunsparce was Knocked Out!
+Dunsparce was discarded from Shafee9mle3eb's Dudunsparce.
+User82738 took a Prize card.
+Fezandipiti ex was added to User82738's hand.
+Shafee9mle3eb's Eevee is now in the Active Spot.
+
+Shafee9mle3eb's Turn
+Shafee9mle3eb drew a card.
+Shafee9mle3eb played Gwynn.
+- Shafee9mle3eb discarded 2 cards.
+   • Shaymin, Rabsca
+- Shafee9mle3eb drew 6 cards.
+Shafee9mle3eb played Dunsparce to the Bench.
+Shafee9mle3eb played Dunsparce to the Bench.
+Shafee9mle3eb evolved Eevee to Sylveon in the Active Spot.
+Shafee9mle3eb attached Hero's Cape to Sylveon in the Active Spot.
+Shafee9mle3eb ended their turn.
+
+User82738's Turn
+User82738 drew Ultra Ball.
+User82738 played Fezandipiti ex to the Bench.
+User82738's Lunatone used Power Gem on Shafee9mle3eb’s Sylveon for 50 damage.
+
+Shafee9mle3eb's Turn
+Shafee9mle3eb drew a card.
+Shafee9mle3eb played Poké Pad.
+- Shafee9mle3eb drew Shuckle.
+- Shafee9mle3eb shuffled their deck.
+Shafee9mle3eb played Shuckle to the Bench.
+Shafee9mle3eb attached Prism Energy to Shuckle on the Bench.
+Shafee9mle3eb's Shuckle used Fermented Juice.
+- Shafee9mle3eb's Sylveon healed 30 damage.
+Shafee9mle3eb's Shuckle used Fermented Juice.
+- Shafee9mle3eb's Sylveon healed 30 damage.
+Shafee9mle3eb evolved Dunsparce to Dudunsparce on the Bench.
+Shafee9mle3eb ended their turn.
+
+User82738's Turn
+User82738 drew Ultra Ball.
+User82738 played Switch.
+- User82738's Mega Lucario ex was switched with User82738's Lunatone to become the Active Pokémon.
+User82738's Mega Lucario ex is now in the Active Spot.
+User82738 played Ultra Ball.
+- User82738 discarded 2 cards.
+   • Ultra Ball, Gravity Mountain
+- User82738 drew Mega Lucario ex.
+- User82738 shuffled their deck.
+User82738 ended their turn.
+
+Shafee9mle3eb's Turn
+Shafee9mle3eb drew a card.
+Shafee9mle3eb played Poké Pad.
+- Shafee9mle3eb drew Ethan's Sudowoodo.
+- Shafee9mle3eb shuffled their deck.
+Shafee9mle3eb played Ethan's Sudowoodo to the Bench.
+Shafee9mle3eb attached Rocky Fighting Energy to Ethan's Sudowoodo on the Bench.
+Shafee9mle3eb ended their turn.
+
+User82738's Turn
+User82738 drew Basic Fighting Energy.
+User82738 attached Air Balloon to Mega Lucario ex in the Active Spot.
+User82738 retreated Mega Lucario ex to the Bench.
+User82738's Lunatone is now in the Active Spot.
+User82738 attached Basic Fighting Energy to Mega Lucario ex on the Bench.
+User82738's Lunatone used Power Gem on Shafee9mle3eb’s Sylveon for 50 damage.
+
+Shafee9mle3eb's Turn
+Shafee9mle3eb drew a card.
+Shafee9mle3eb's Shuckle used Fermented Juice.
+- Shafee9mle3eb's Sylveon healed 30 damage.
+Shafee9mle3eb's Shuckle used Fermented Juice.
+- Shafee9mle3eb's Sylveon healed 30 damage.
+Shafee9mle3eb played Boss's Orders.
+- User82738's Mega Lucario ex was switched with User82738's Lunatone to become the Active Pokémon.
+User82738's Mega Lucario ex is now in the Active Spot.
+Shafee9mle3eb ended their turn.
+
+User82738's Turn
+User82738 drew Fighting Gong.
+User82738 played Fighting Gong.
+- User82738 drew Riolu.
+- User82738 shuffled their deck.
+User82738 played Riolu to the Bench.
+User82738 retreated Mega Lucario ex to the Bench.
+User82738's Lunatone is now in the Active Spot.
+User82738's Lunatone used Power Gem on Shafee9mle3eb’s Sylveon for 50 damage.
+
+Shafee9mle3eb's Turn
+Shafee9mle3eb drew a card.
+Shafee9mle3eb's Shuckle used Fermented Juice.
+- Shafee9mle3eb's Sylveon healed 30 damage.
+Shafee9mle3eb's Shuckle used Fermented Juice.
+- Shafee9mle3eb's Sylveon healed 30 damage.
+Shafee9mle3eb ended their turn.
+
+User82738's Turn
+User82738 drew Air Balloon.
+User82738's Lunatone used Power Gem on Shafee9mle3eb’s Sylveon for 50 damage.
+
+Shafee9mle3eb's Turn
+Shafee9mle3eb drew a card.
+Shafee9mle3eb evolved Dunsparce to Dudunsparce on the Bench.
+Shafee9mle3eb's Shuckle used Fermented Juice.
+- Shafee9mle3eb's Sylveon healed 30 damage.
+Shafee9mle3eb's Shuckle used Fermented Juice.
+- Shafee9mle3eb's Sylveon healed 30 damage.
+Shafee9mle3eb ended their turn.
+
+User82738's Turn
+User82738 drew Lillie's Determination.
+User82738 evolved Riolu to Mega Lucario ex on the Bench.
+User82738 played Lillie's Determination.
+- User82738 shuffled 2 cards into their deck.
+   • Maximum Belt, Air Balloon
+- User82738 drew 6 cards.
+   • Premium Power Pro, Judge, Switch, Fighting Gong, Makuhita, Fighting Gong
+User82738 played Makuhita to the Bench.
+User82738 played Fighting Gong.
+- User82738 drew Basic Fighting Energy.
+- User82738 shuffled their deck.
+User82738 played Fighting Gong.
+- User82738 drew Basic Fighting Energy.
+- User82738 shuffled their deck.
+User82738 attached Basic Fighting Energy to Fezandipiti ex on the Bench.
+User82738's Lunatone used Power Gem on Shafee9mle3eb’s Sylveon for 50 damage.
+
+Shafee9mle3eb's Turn
+Shafee9mle3eb drew a card.
+Shafee9mle3eb's Shuckle used Fermented Juice.
+- Shafee9mle3eb's Sylveon healed 30 damage.
+Shafee9mle3eb's Shuckle used Fermented Juice.
+- Shafee9mle3eb's Sylveon healed 30 damage.
+Shafee9mle3eb played Night Stretcher.
+- Shafee9mle3eb moved Shafee9mle3eb's Dunsparce to their hand.
+Shafee9mle3eb ended their turn.
+
+User82738's Turn
+User82738 drew Hilda.
+User82738 played Hilda.
+- User82738 drew 2 cards.
+   • Hariyama, Basic Fighting Energy
+- User82738 shuffled their deck.
+User82738 evolved Makuhita to Hariyama on the Bench.
+User82738's Hariyama used Heave-Ho Catcher.
+- Shafee9mle3eb's Shuckle was switched with Shafee9mle3eb's Sylveon to become the Active Pokémon.
+Shafee9mle3eb's Shuckle is now in the Active Spot.
+User82738 played Premium Power Pro.
+User82738 attached Basic Fighting Energy to Fezandipiti ex on the Bench.
+User82738's Lunatone used Power Gem on Shafee9mle3eb’s Shuckle for 80 damage.
+- Damage breakdown:
+   • Base damage: 50 damage
+   • (Item) Premium Power Pro: 30 damage
+   • Total damage: 80 damage
+
+Shafee9mle3eb's Shuckle was Knocked Out!
+Prism Energy was discarded from Shafee9mle3eb's Shuckle.
+User82738 took a Prize card.
+Mega Lucario ex was added to User82738's hand.
+Shafee9mle3eb's Sylveon is now in the Active Spot.
+
+Shafee9mle3eb's Turn
+Shafee9mle3eb drew a card.
+Shafee9mle3eb played Gwynn.
+- Shafee9mle3eb discarded 2 cards.
+   • Rabsca, Elgyem
+- Shafee9mle3eb drew 6 cards.
+Shafee9mle3eb played Poké Pad.
+- Shafee9mle3eb drew Shuckle.
+- Shafee9mle3eb shuffled their deck.
+Shafee9mle3eb played Shuckle to the Bench.
+Shafee9mle3eb attached Basic Grass Energy to Shuckle on the Bench.
+Shafee9mle3eb ended their turn.
+
+User82738's Turn
+User82738 drew Lillie's Determination.
+User82738 attached Basic Fighting Energy to Fezandipiti ex on the Bench.
+User82738 played Switch.
+- User82738's Fezandipiti ex was switched with User82738's Lunatone to become the Active Pokémon.
+User82738's Fezandipiti ex is now in the Active Spot.
+User82738 played Lillie's Determination.
+- User82738 shuffled 2 cards into their deck.
+   • Judge, Mega Lucario ex
+- User82738 drew 6 cards.
+   • Poké Pad, Gravity Mountain, Okidogi, Judge, Premium Power Pro, Fighting Gong
+User82738's Fezandipiti ex used Cruel Arrow.
+- Shafee9mle3eb's Shuckle took 100 damage.
+Shafee9mle3eb's Shuckle was Knocked Out!
+Prism Energy was discarded from Shafee9mle3eb's Shuckle.
+User82738 took a Prize card.
+Riolu was added to User82738's hand.
+
+Shafee9mle3eb's Turn
+Shafee9mle3eb drew a card.
+Shafee9mle3eb played Shaymin to the Bench.
+Shafee9mle3eb's Dudunsparce used Run Away Draw.
+- Shafee9mle3eb drew 3 cards.
+- Shafee9mle3eb shuffled 2 cards into their deck.
+   • Dudunsparce, Dunsparce
+Shafee9mle3eb played Dunsparce to the Bench.
+Shafee9mle3eb's Dudunsparce used Run Away Draw.
+- Shafee9mle3eb drew 3 cards.
+- Shafee9mle3eb shuffled 2 cards into their deck.
+   • Dudunsparce, Dunsparce
+Shafee9mle3eb played Rust Syndicate Grunt.
+- Basic Fighting Energy was discarded from User82738's Fezandipiti ex.
+Shafee9mle3eb ended their turn.
+
+User82738's Turn
+User82738 drew Air Balloon.
+User82738 played Okidogi to the Bench.
+User82738 played Fighting Gong.
+- User82738 drew Basic Fighting Energy.
+- User82738 shuffled their deck.
+User82738 attached Basic Fighting Energy to Fezandipiti ex in the Active Spot.
+User82738 played Premium Power Pro.
+User82738's Fezandipiti ex used Cruel Arrow.
+Shafee9mle3eb's Shaymin used Flower Curtain.
+- Damage to Shaymin was prevented.
+
+Shafee9mle3eb's Turn
+Shafee9mle3eb drew a card.
+Shafee9mle3eb played Lillie's Determination.
+- Shafee9mle3eb shuffled 11 cards into their deck.
+- Shafee9mle3eb drew 8 cards.
+Shafee9mle3eb played Dunsparce to the Bench.
+Shafee9mle3eb ended their turn.
+
+User82738's Turn
+User82738 drew Riolu.
+User82738's Fezandipiti ex used Cruel Arrow.
+Shafee9mle3eb's Shaymin used Flower Curtain.
+- Damage to Shuckle was prevented.
+
+Shafee9mle3eb's Turn
+Shafee9mle3eb drew a card.
+Shafee9mle3eb evolved Dunsparce to Dudunsparce on the Bench.
+Shafee9mle3eb played Lillie's Determination.
+- Shafee9mle3eb shuffled 6 cards into their deck.
+- Shafee9mle3eb drew 8 cards.
+Shafee9mle3eb evolved Dunsparce to Dudunsparce on the Bench.
+Shafee9mle3eb ended their turn.
+
+User82738's Turn
+User82738 drew Boss's Orders.
+User82738 played Boss's Orders.
+- Shafee9mle3eb's Shaymin was switched with Shafee9mle3eb's Sylveon to become the Active Pokémon.
+Shafee9mle3eb's Shaymin is now in the Active Spot.
+User82738's Fezandipiti ex used Cruel Arrow on Shafee9mle3eb’s Shaymin for 100 damage.
+Shafee9mle3eb's Shaymin was Knocked Out!
+User82738 took a Prize card.
+Tarragon was added to User82738's hand.
+Shafee9mle3eb's Sylveon is now in the Active Spot.
+
+Shafee9mle3eb's Turn
+Shafee9mle3eb drew a card.
+Shafee9mle3eb played Buddy-Buddy Poffin.
+- Shafee9mle3eb shuffled their deck.
+Shafee9mle3eb played Lana's Aid.
+- Shafee9mle3eb moved Shafee9mle3eb's 3 cards to their hand.
+   • Dudunsparce, Shaymin, Shuckle
+Shafee9mle3eb played Shaymin to the Bench.
+Shafee9mle3eb's Dudunsparce used Run Away Draw.
+- Shafee9mle3eb drew 3 cards.
+- Shafee9mle3eb shuffled 2 cards into their deck.
+   • Dudunsparce, Dunsparce
+Shafee9mle3eb played Shuckle to the Bench.
+Shafee9mle3eb attached Prism Energy to Shuckle on the Bench.
+Shafee9mle3eb played Forest of Vitality to the Stadium spot.
+Shafee9mle3eb ended their turn.
+
+User82738's Turn
+User82738 drew Basic Fighting Energy.
+User82738 attached Basic Fighting Energy to Hariyama on the Bench.
+User82738 played Tarragon.
+- User82738 moved User82738's Basic Fighting Energy to their hand.
+User82738 played Poké Pad.
+- User82738 drew Hariyama.
+- User82738 shuffled their deck.
+User82738 ended their turn.
+
+Shafee9mle3eb's Turn
+Shafee9mle3eb drew a card.
+Shafee9mle3eb ended their turn.
+
+User82738's Turn
+User82738 drew Team Rocket's Petrel.
+User82738 attached Basic Fighting Energy to Hariyama on the Bench.
+User82738 played Team Rocket's Petrel.
+- User82738 drew Boss's Orders.
+- User82738 shuffled their deck.
+User82738 ended their turn.
+
+Shafee9mle3eb's Turn
+Shafee9mle3eb drew a card.
+Shafee9mle3eb played Dudunsparce.
+- Shafee9mle3eb drew 3 cards.
+- Shafee9mle3eb shuffled 2 cards into their deck.
+   • Dudunsparce, Dunsparce
+Shafee9mle3eb played Gwynn.
+- Shafee9mle3eb discarded 2 cards.
+   • Fan Rotom, Rellor
+- Shafee9mle3eb drew 6 cards.
+Opponent conceded. User82738 wins.
