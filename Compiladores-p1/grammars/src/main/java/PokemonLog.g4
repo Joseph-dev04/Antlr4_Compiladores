@@ -1,41 +1,111 @@
 grammar PokemonLog;
 
-// REGLAS SINTÁCTICAS
+//PARSER
 
-gameLog : setupBlock turnBlock* matchOutcome EOF ;
+gameLog : NEWLINE* setupBlock turnBlock* EOF ;
 
-setupBlock   : SETUP_HEADER NEWLINE setupLine* ;
-setupLine    : normalLine ;
+setupBlock : SETUP eol setupLine* ;
 
-turnBlock    : TURN_HEADER NEWLINE turnLine* ;
-turnLine     : normalLine ;
+setupLine
+    : coinChoice
+    | coinWinner
+    | turnOrder
+    | detailLine
+    | genericLine
+    ;
 
-matchOutcome : startToken otherToken* NEWLINE? ;
+// "DudeJaden chose heads for the opening coin flip."
+coinChoice : player=WORD CHOSE side=WORD restOfLine eol ;
+// "DudeJaden won the coin toss."
+coinWinner : player=WORD WON restOfLine eol ;
+// "DudeJaden decided to go first."
+turnOrder  : player=WORD DECIDED TO WORD order=WORD DOT eol ;
 
-normalLine   : startToken otherToken* NEWLINE ;
+// "DudeJaden's Turn"
+turnBlock : player=POSS TURN eol statement* ;
 
-startToken   : DASH | BULLET | PLAYER_NAME | WORD | ALL_WORD ;
-otherToken   : PLAYER_NAME | WORD | NUM | APOSTROPHE | DASH | BULLET | COMMA | COLON | DOT | LPAREN | RPAREN | ALL_WORD ;
+statement
+    : attackLine
+    | abilityLine
+    | knockoutLine
+    | prizeLine
+    | endTurnLine
+    | playLine
+    | timeoutLine
+    | winnerLine
+    | detailLine
+    | genericLine
+    ;
 
+// "X's Mega Lucario ex used Aura Jab on Y's Lunatone for 130 damage."
+attackLine
+    : owner=POSS pokemon=words USED attack=words
+      ON targetOwner=POSS target=words
+      FOR damage=NUMBER DAMAGE DOT eol ;
 
-// REGLAS LÉXICAS
+// "X's Meowth ex used Last-Ditch Catch."
+abilityLine : owner=POSS pokemon=words USED move=words DOT eol ;
 
-SETUP_HEADER : 'Setup' ;
-TURN_HEADER  : [a-zA-Z0-9_\u00C0-\u017F]+ ('\'' | '’') 'Turn' ;
-ALL_WORD     : 'All' ;
+// "Y's Makuhita was Knocked Out!"
+knockoutLine : owner=POSS pokemon=words WAS KNOCKED OUT BANG eol ;
 
-APOSTROPHE   : '\'' | '’' ;
-DASH         : '-' ;
-BULLET       : '•' | '*' ;
-COMMA        : ',' ;
-COLON        : ':' ;
-DOT          : '.' ;
-LPAREN       : '(' ;
-RPAREN       : ')' ;
+// "X took a Prize card." / "X took 3 Prize cards."
+prizeLine : player=WORD TOOK count=(NUMBER|WORD) PRIZE WORD DOT eol ;
 
-PLAYER_NAME  : [a-zA-Z0-9_\u00C0-\u017F]+ ;
-WORD         : [a-zA-Z0-9_\u00C0-\u017F'’!\-%]+ ;
-NUM          : [0-9]+ ;
+// "X ended their turn."
+endTurnLine : player=WORD ENDED THEIR WORD DOT eol ;
 
-NEWLINE      : [\r\n]+ ;
-WS           : [ \t\u00A0]+ -> skip ;
+// "X played Makuhita to the Active Spot." / "X played Judge."
+playLine : player=WORD PLAYED card=words (TO place=words)? DOT eol ;
+
+// "X didn't take an action in time."
+timeoutLine : player=WORD DIDNT restOfLine eol ;
+
+// "All Prize cards taken. X wins."  /  "Opponent was inactive for too long. X wins."
+winnerLine : (~(DOT | NEWLINE | TURN))* DOT winner=WORD WINS DOT eol ;
+
+// líneas de detalle: "- ..." o "   • ..."
+detailLine  : (DASH | BULLET) restOfLine eol ;
+genericLine : (~(NEWLINE | TURN))+ eol ;
+
+restOfLine : (~(NEWLINE | TURN))* ;
+words      : (WORD | NUMBER | POSS | PRIZE)+ ;
+eol : NEWLINE | {_input.LA(1) == EOF}? ;
+
+//LEXER
+
+SETUP   : 'Setup' ;
+TURN    : 'Turn' ;
+USED    : 'used' ;
+ON      : 'on' ;
+FOR     : 'for' ;
+DAMAGE  : 'damage' ;
+WAS     : 'was' ;
+KNOCKED : 'Knocked' ;
+OUT     : 'Out' ;
+WINS    : 'wins' ;
+TOOK    : 'took' ;
+PRIZE   : 'Prize' ;
+ENDED   : 'ended' ;
+THEIR   : 'their' ;
+PLAYED  : 'played' ;
+TO      : 'to' ;
+CHOSE   : 'chose' ;
+WON     : 'won' ;
+DECIDED : 'decided' ;
+DIDNT   : 'didn' APOS 't' ;
+
+NUMBER  : [0-9]+ ;
+POSS    : WCHAR+ APOS 's' ;                      // DudeJaden's / DrCompiler’s
+WORD    : WCHAR+ ('-' WCHAR+)* ;                 // Last-Ditch, User82738, Poké
+
+DOT     : '.' ;
+BANG    : '!' ;
+DASH    : '-' ;
+BULLET  : '•' ;
+NEWLINE : [\r\n]+ ;
+WS      : [ \t\u00A0]+ -> skip ;
+OTHER   : . ;                                    // cualquier símbolo suelto, nunca falla el lexer
+
+fragment WCHAR : [a-zA-Z0-9_\u00C0-\u017F] ;
+fragment APOS  : '\'' | '’' ;
