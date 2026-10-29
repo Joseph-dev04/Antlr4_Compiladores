@@ -1,178 +1,142 @@
-grammar CMinus ;
+grammar CMinus;
 
-program : declarationList EOF;
-declarationList : declaration+;
+// ANALISIS SINTACTICO
+// Nivel basico de Louden + ampliaciones del nivel medio.
 
-declaration
-    : varDeclaration
+program: declaration+ EOF
+    ;
+
+declaration: varDeclaration
     | funDeclaration
     ;
 
-varDeclaration
-    : typeSpecifier ID SEMI
-    | typeSpecifier ID LBRACK NUM RBRACK SEMI
+varDeclaration: typeSpecifier ID ('[' NUM ']')? ';'
     ;
 
-typeSpecifier
-    : INT
+typeSpecifier: INT
     | VOID
     | CHAR
     | BOOL
     ;
 
-funDeclaration
-    : typeSpecifier ID LPAREN params RPAREN compoundStmt
+funDeclaration: typeSpecifier ID '(' params ')' compoundStmt
     ;
 
-params
-    : paramList
+params: paramList
     | VOID
     ;
 
-paramList : param (COMMA param)*;
-
-param
-    : typeSpecifier ID
-    | typeSpecifier ID LBRACK RBRACK
+paramList: param (',' param)*
     ;
 
-compoundStmt : LBRACE localDeclarations statementList RBRACE;
+param: typeSpecifier ID ('[' ']')?
+    ;
 
-localDeclarations : varDeclaration* ;
+compoundStmt: '{' localDeclarations statementList '}'
+    ;
 
-statementList : statement* ;
+localDeclarations: varDeclaration*
+    ;
 
-statement
-    : expressionStmt
+statementList: statement*
+    ;
+
+statement: expressionStmt
     | compoundStmt
     | selectionStmt
     | iterationStmt
     | returnStmt
     ;
 
-expressionStmt
-    : expression SEMI
-    | SEMI
+expressionStmt: expression? ';'
     ;
 
-selectionStmt
-    : IF LPAREN expression RPAREN statement (ELSE statement)?
+selectionStmt: IF '(' expression ')' statement (ELSE statement)?
     ;
 
-iterationStmt
-    : WHILE LPAREN expression RPAREN statement
-    | FOR LPAREN expressionStmt expressionStmt expression? RPAREN statement
+// En for las tres partes son opcionales; los dos ';' son obligatorios.
+iterationStmt: WHILE '(' expression ')' statement
+    | FOR '(' expressionStmt expressionStmt expression? ')' statement
     ;
 
-returnStmt
-    : RETURN SEMI
-    | RETURN expression SEMI
+returnStmt: RETURN expression? ';'
     ;
 
-expression
-    : var ASSIGN expression
+// Asignacion solo a una variable (o elemento de array): asociativa a derecha.
+expression: var '=' expression
     | logicalOrExpression
     ;
 
-logicalOrExpression
-    : logicalOrExpression OR logicalAndExpression
-    | logicalAndExpression
+var: ID ('[' expression ']')?
     ;
 
-logicalAndExpression
-    : logicalAndExpression AND equalityExpression
-    | equalityExpression
+logicalOrExpression: logicalAndExpression ('||' logicalAndExpression)*
     ;
 
-equalityExpression
-    : simpleExpression (eqop simpleExpression)?
+logicalAndExpression: simpleExpression ('&&' simpleExpression)*
     ;
 
-eqop : EQ | NEQ ;
-
-simpleExpression 
-    : additiveExpression (relop additiveExpression)? 
+// Un solo operador relacional sin parentesis, igual que en Louden.
+simpleExpression: additiveExpression (relop additiveExpression)?
     ;
 
-var
-    : ID
-    | ID LBRACK expression RBRACK
+relop: '<='
+    | '<'
+    | '>'
+    | '>='
+    | '=='
+    | '!='
     ;
 
-
-relop : LTE | LT | GT | GTE | EQ | NEQ ;
-
-additiveExpression
-    : additiveExpression addop term
-    | term
+additiveExpression: term (('+' | '-') term)*
     ;
 
-addop : PLUS | MINUS ;
+term: unaryExpression (('*' | '/' | '%') unaryExpression)*
+    ;
 
-term
-    : term mulop factor
+// El ! y el - unarios tienen mayor precedencia que * / %, + -, relaciones, && y ||.
+unaryExpression: ('!' | '-') unaryExpression
     | factor
     ;
 
-mulop : TIMES | OVER | MOD ;
-
-factor
-    : LPAREN expression RPAREN
+factor: '(' expression ')'
     | var
     | call
     | NUM
     | CHAR_LITERAL
     | TRUE
     | FALSE
-    | MINUS factor
-    | NOT factor
     ;
 
-call    : ID LPAREN args RPAREN ;
+call: ID '(' args ')'
+    ;
 
-args    : argList? ;
+args: (expression (',' expression)*)?
+    ;
 
-argList : expression (COMMA expression)* ;
+// ANALISIS LEXICO
 
-IF      : 'if' ;
-ELSE    : 'else' ;
-INT     : 'int' ;
-RETURN  : 'return' ;
-VOID    : 'void' ;
-WHILE   : 'while' ;
-FOR     : 'for' ;
-CHAR    : 'char' ;
-BOOL    : 'bool' ;
-TRUE    : 'true' ;
-FALSE   : 'false' ;
+IF      : 'if';
+ELSE    : 'else';
+INT     : 'int';
+RETURN  : 'return';
+VOID    : 'void';
+WHILE   : 'while';
+FOR     : 'for';
+CHAR    : 'char';
+BOOL    : 'bool';
+TRUE    : 'true';
+FALSE   : 'false';
 
-MOD     : '%' ;
-AND     : '&&' ;
-OR      : '||' ;
-NOT     : '!' ;
-PLUS    : '+' ;
-MINUS   : '-' ;
-TIMES   : '*' ;
-OVER    : '/' ;
-LT      : '<' ;
-LTE     : '<=' ;
-GT      : '>' ;
-GTE     : '>=' ;
-EQ      : '==' ;
-NEQ     : '!=' ;
-ASSIGN  : '=' ;
-SEMI    : ';' ;
-COMMA   : ',' ;
-LPAREN  : '(' ;
-RPAREN  : ')' ;
-LBRACK  : '[' ;
-RBRACK  : ']' ;
-LBRACE  : '{' ;
-RBRACE  : '}' ;
+// Solo letras, tal como exige Louden; las cifras no forman parte de ID.
+ID      : [a-zA-Z]+;
+NUM     : [0-9]+;
 
-ID      : [a-zA-Z] [a-zA-Z0-9]* ;
-NUM     : [0-9]+ ;
+// Un caracter o uno de los escapes habituales de C.
+CHAR_LITERAL : '\'' ( ~['\\\r\n] | '\\' [ntr0'\\] ) '\'';
 
-BLOCK_COMMENT : '/*' .*? '*/' -> skip ;
-WS      : [ \t\r\n\u00A0]+ -> skip ;
-CHAR_LITERAL : '\'' ( '\\' [nrt'\\0] | ~['\\\r\n] ) '\'' ;
+// Se identifican explicitamente casos lexicos invalidos.
+INVALID_ID : [a-zA-Z]+ [0-9] [a-zA-Z0-9]*;
+COMMENT : '/*' .*? '*/' -> skip;
+WS      : [ \t\r\n]+ -> skip;
+INVALID_CHAR : .;
